@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.mountreachsolution.kisaan"
+    namespace = "com.prashanjit.kisaan"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.mountreachsolution.kisaan"
+        applicationId = "com.prashanjit.kisaan"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
