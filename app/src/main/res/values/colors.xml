@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green">#0A503C</color>
+    <color name="lightgreed">#269157</color>
+    <color name="lightfG">#C0FFDD</color>
+    <color name="yellow">#EFA528</color>
+    <color name="brand_teal">#3D847E</color>
+    <color name="lightteal">#AAD1CD</color>
+    <color name="light_gray_bg">#F8F9FB</color>
+
+    <color name="brand_teal_light">#EBF2F1</color>
+    <color name="text_gray">#757575</color>
+    <color name="input_bg">#F8F9FB</color>
+    <color name="Profil">#F5F7FA</color>
+</resources>

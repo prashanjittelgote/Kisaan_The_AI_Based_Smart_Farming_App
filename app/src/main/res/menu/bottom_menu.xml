@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_weather" android:title="Weather" android:icon="@drawable/weather_logo"/>
+    <item android:id="@+id/nav_chat" android:title="Community" android:icon="@drawable/baseline_message_24"/>
+    <item android:id="@+id/nav_home" android:title="Home" android:icon="@drawable/home_logo"/>
+    <item android:id="@+id/nav_market" android:title="Market" android:icon="@drawable/market_logo"/>
+    <item android:id="@+id/nav_Kisandoot" android:title="KisanDoot" android:icon="@drawable/kisandoot_logo"/>
+</menu>

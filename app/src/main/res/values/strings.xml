@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">KISAAN</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+
+    <string name="privacy_title">Privacy Policy</string>
+    <string name="privacy_accept_button">Accept and Continue</string>
+
+    <string name="privacy_section1_title">1. Information We Collect</string>
+    <string name="privacy_section1_content">
+        We collect personal information such as your name, email address, and mobile number during registration.
+    </string>
+
+    <string name="privacy_section2_title">2. How We Use Your Information</string>
+    <string name="privacy_section2_content">
+        Your information is used to improve user experience and enhance application services.
+    </string>
+
+    <string name="privacy_section3_title">3. Data Protection and Security</string>
+    <string name="privacy_section3_content">
+        We use industry-standard security measures to protect your personal data.
+    </string>
+
+    <string name="privacy_section4_title">4. User Rights and Contact</string>
+    <string name="privacy_section4_content">
+        Users may request data correction or deletion. Contact support for privacy-related queries.
+    </string>
+
+
+</resources>

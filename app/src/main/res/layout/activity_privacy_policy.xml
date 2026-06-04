@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F9FA">
+
+    <!-- Header -->
+    <TextView
+        android:id="@+id/tvHeader"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="#65D669"
+        android:gravity="center"
+        android:text="@string/privacy_title"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- Scroll Content -->
+    <ScrollView
+        android:id="@+id/scrollPrivacy"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="20dp"
+        app:layout_constraintTop_toBottomOf="@id/tvHeader"
+        app:layout_constraintBottom_toTopOf="@id/btnAccept"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:id="@+id/layoutPrivacyContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Section 1 -->
+            <TextView
+                android:id="@+id/tvSection1Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/privacy_section1_title"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="#0D172B"
+                android:paddingBottom="6dp"/>
+
+            <TextView
+                android:id="@+id/tvSection1Content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/privacy_section1_content"
+                android:textSize="15sp"
+                android:textColor="#555555"
+                android:lineSpacingExtra="4dp"
+                android:paddingBottom="18dp"/>
+
+            <!-- Section 2 -->
+            <TextView
+                android:id="@+id/tvSection2Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/privacy_section2_title"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="#0D172B"
+                android:paddingBottom="6dp"/>
+
+            <TextView
+                android:id="@+id/tvSection2Content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/privacy_section2_content"
+                android:textSize="15sp"
+                android:textColor="#555555"
+                android:lineSpacingExtra="4dp"
+                android:paddingBottom="18dp"/>
+
+            <!-- Section 3 -->
+            <TextView
+                android:id="@+id/tvSection3Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/privacy_section3_title"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="#0D172B"
+                android:paddingBottom="6dp"/>
+
+            <TextView
+                android:id="@+id/tvSection3Content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/privacy_section3_content"
+                android:textSize="15sp"
+                android:textColor="#555555"
+                android:lineSpacingExtra="4dp"
+                android:paddingBottom="18dp"/>
+
+            <!-- Section 4 -->
+            <TextView
+                android:id="@+id/tvSection4Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/privacy_section4_title"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="#0D172B"
+                android:paddingBottom="6dp"/>
+
+            <TextView
+                android:id="@+id/tvSection4Content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/privacy_section4_content"
+                android:textSize="15sp"
+                android:textColor="#555555"
+                android:lineSpacingExtra="4dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Accept Button -->
+    <Button
+        android:id="@+id/btnAccept"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:text="@string/privacy_accept_button"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:backgroundTint="#65D669"
+        android:layout_margin="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
